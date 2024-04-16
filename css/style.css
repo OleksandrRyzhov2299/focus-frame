@@ -1,15 +1,29 @@
-body{
-    color: #FFFFFF;
-    background-color: var(--black, #121212); 
+/* Variables */
+/* Base */
+body {
+  font-family: sans-serif;
+  color: #ffffff;
+  background-color: var(--black, #121212);
 }
 span {
-    color:tomato;
-    text-decoration: underline;
+  color: tomato;
+  text-decoration: underline;
 }
-.header{
-
+/* Reset */
+ul,
+ol {
+  list-style-type: none;
 }
-/* Abou Us */
-.list-about-us{
-    list-style-type: none;
+a {
+  text-decoration: none;
 }
+/* Header */
+.header {
+}
+.header-link {
+  color: red;
+}
+.header-link.current {
+  color: white;
+}
+/* About Us */

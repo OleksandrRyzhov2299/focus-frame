@@ -6,109 +6,139 @@
     <title>Focus.Frame</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="page">
     <header class="header">
-      <a href="" class="logo">
-        <img src="images/icons/logo.svg" alt="logo" />
-      </a>
-      <ul class="list-about-us">
-        <li>
-          <a href="">About us</a>
-        </li>
-        <li>
-          <a href="">Our courses</a>
-        </li>
-        <li>
-          <a href="">Our mentors</a>
-        </li>
-        <li>
-          <a href="">Reviews</a>
-        </li>
-        <li>
-          <a href="">contacts</a>
-        </li>
-      </ul>
-      <button class="button-sign-up">SIGN UP</button>
+      <nav class="nav">
+        <a class="logo" href="">
+          <img class="logo-icon" src="images/icons/logo.svg" alt="logo" />
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-menu-iteam">
+            <a class="nav-menu-link" href="">About us</a>
+          </li>
+          <li class="nav-menu-iteam">
+            <a class="nav-menu-link" href="">Our courses</a>
+          </li>
+          <li class="nav-menu-iteam">
+            <a class="nav-menu-link current" href="">Our mentors</a>
+          </li>
+          <li class="nav-menu-iteam">
+            <a class="nav-menu-link" href="">Reviews</a>
+          </li>
+          <li class="nav-menu-iteam">
+            <a class="nav-menu-link" href="">contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header-btn btn" type="button">SIGN UP</button>
     </header>
     <main class="main">
       <!-- Hero -->
-      <section class="section-hero">
-        <h1>Discover the magic of photography in our school</h1>
-        <p>
+      <section class="hero section">
+        <h1 class="hero-title">
+          Discover the magic of photography in our school
+        </h1>
+        <p class="hero-desc">
           Our photography school offers an unforgettable journey, where you can
           learn the basics of composition, master technical skills, translate
           your unique ideas.
         </p>
-        <img src="images/hero/img1.png" alt="girl" class="student1" />
-        <img src="images/hero/img2.png" alt="boy"  class="student2"/>
-        <img src="images/hero/img3.png" alt="girl"  class="student3"/>
-        <p>Our happy students</p>
-        <img src="images/icons/arrow.svg" alt="arrow" class="arrow"/>
-
-        <div class="star">
-          <img src="images/icons/star.svg" alt="star" />
+        <div class="hero-users">
+          <ul class="hero-list">
+            <li class="hero-list-item">
+              <img
+                class="hero-list-img"
+                src="images/hero/img1.png"
+                alt="girl"
+              />
+            </li>
+            <li class="hero-list-item">
+              <img class="hero-list-img" src="images/hero/img2.png" alt="boy" />
+            </li>
+            <li class="hero-list-item">
+              <img
+                class="hero-list-img"
+                src="images/hero/img3.png"
+                alt="girl"
+              />
+            </li>
+          </ul>
+          <p class="hero-users-text">Our happy students</p>
+          <img
+            class="hero-users-icon"
+            src="images/icons/arrow.svg"
+            alt="arrow"
+          />
         </div>
-        <p class="reviews">Reviews</p>
-        <p class="+1500">+1500</p>
-        <img src="images/hero/img4.png" alt="photography" class="photography" />
+
+        <div class="hero-reviews">
+          <div class="star">
+            <img src="images/icons/star.svg" alt="star" />
+          </div>
+          <p class="reviews">Reviews</p>
+          <p class="+1500">+1500</p>
+        </div>
+        <img class="hero-banner" src="images/hero/img4.png" alt="photography" />
       </section>
       <!-- Promo -->
-      <section class="promo">
-        <h1 class="animation-line">Master your photography skills with us!</h1>
+      <section class="promo section">
+        <h2 class="promo-text">Master your photography skills with us!</h2>
       </section>
       <!-- About -->
-      <section>
-        <h2>About Us</h2>
-        <img src="images/about/camera.png" alt="camera" />
-        <p>
-          Our photography school is designed to teach you everything you need to
-          know about this magical art. Regardless of your experience or skill
-          level, we offer a wide range of courses to suit your needs and
-          interests. Our teaching team consists of experienced photographers who
-          have many years of experience in this field. They strive not only to
-          share their knowledge, but also to inspire you to develop and express
-          your unique creativity.
-        </p>
-        <p>
-          Our courses cover a wide range of topics, from the basics of
-          photography and equipment use to professional image processing and
-          creating impressive compositions. You will have the opportunity to
-          learn the technical aspects of photography, discover your own style
-          and develop your own visual language.
-        </p>
+      <section class="about section">
+        <h2 class="about-title">About Us</h2>
+        <div class="about-block">
+          <img class="about-img" src="images/about/camera.png" alt="camera" />
+          <p class="about-text">
+            Our photography school is designed to teach you everything you need
+            to know about this magical art. Regardless of your experience or
+            skill level, we offer a wide range of courses to suit your needs and
+            interests. Our teaching team consists of experienced photographers
+            who have many years of experience in this field. They strive not
+            only to share their knowledge, but also to inspire you to develop
+            and express your unique creativity.
+          </p>
+          <p class="about-text">
+            Our courses cover a wide range of topics, from the basics of
+            photography and equipment use to professional image processing and
+            creating impressive compositions. You will have the opportunity to
+            learn the technical aspects of photography, discover your own style
+            and develop your own visual language.
+          </p>
+        </div>
       </section>
       <!-- Our Courses -->
-      <section class="our-courses">
-        <h2>Our Courses</h2>
-        <p>
+      <section class="courses section">
+        <h2 class="courses-title">Our Courses</h2>
+        <p class="courses-text">
           At our photography school, we offer a variety of courses that cover
           all aspects of this fascinating art. Regardless of your experience or
           skill level, we have courses to suit your needs and goals.
         </p>
-        <ul class="three-position-courses">
-          <li class="courses-cards">
-            <span class="position-courses">01</span>
+        <ul class="courses-list">
+          <li class="courses-list-iteam">
+            <span class="courses-number">01</span>
             <a href=""><img src="images/icons/arrow-up.svg" alt="arrow" /></a>
-            <h3 class="type-courses">Basics of photography</h3>
-            <p class="description-courses">
+            <h3 class="courses-type">Basics of photography</h3>
+            <p class="courses-dscrpt">
               During this course, you will be able to familiarize yourself with
               different types of cameras, learn the basics of composition.
             </p>
           </li>
-          <li class="courses-cards">
-            <span class="position-courses" >02</span>
+          <li class="courses-list-iteam">
+            <span class="courses-number">02</span>
             <a href=""><img src="images/icons/arrow-up.svg" alt="arrow" /></a>
-            <h3 class="type-courses">Landscape photography</h3>
-            <p class="description-courses">
+            <h3 class="courses-type">Landscape photography</h3>
+            <p class="courses-dscrpt">
               In this course, you'll learn how to choose the right angles, frame
               landscapes, and create depth and perspective in your images.
             </p>
           </li>
-          <li class="courses-cards">
-            <span  class="position-courses">03</span>
+          <li class="courses-list-iteam">
+            <span class="courses-number">03</span>
             <a href=""><img src="images/icons/arrow-up.svg" alt="arrow" /></a>
-            <h3 class="type-courses">Portrait photography</h3>
-            <p class="description-courses">
+            <h3 class="courses-type">Portrait photography</h3>
+            <p class="courses-dscrpt">
               During this course, you will learn to choose the right lighting,
               reproduce the mood and expressions on the faces of the models.
             </p>
@@ -116,64 +146,114 @@
         </ul>
       </section>
       <!-- Our Mentors -->
-      <section class="our-mentors">
-        <h2>Our Mentors</h2>
+      <section class="mentors section">
+        <h2 class="mentors-title">Our Mentors</h2>
         <ul class="mentors-list">
-          <li class="mentor">
-            <img src="images/mentors/img1.png" alt="Mentor Emilia Smith" />
-            <h3>Emilia Smith</h3>
-            <p>1.5 years of experience</p>
+          <li class="mentors-list-iteams">
+            <img
+              class="mentors-img"
+              src="images/mentors/img1.png"
+              alt="Mentor Emilia Smith"
+            />
+            <h3 class="mentors-name">Emilia Smith</h3>
+            <p class="mentors-text">1.5 years of experience</p>
           </li>
-          <li class="mentor">
-            <img src="images/mentors/img2.png" alt="Mentor Alex Lebedev" />
-            <h3>Alex Lebedev</h3>
-            <p>3.5 years of experience</p>
+          <li class="mentors-list-iteams">
+            <img
+              class="mentors-img"
+              src="images/mentors/img2.png"
+              alt="Mentor Alex Lebedev"
+            />
+            <h3 class="mentors-name">Alex Lebedev</h3>
+            <p class="mentors-text">3.5 years of experience</p>
           </li>
-          <li class="mentor">
-            <img src="images/mentors/img3.png" alt="Mentor Mia Dubrovska" />
-            <h3>Mia Dubrovska</h3>
-            <p>2.0 years of experience</p>
+          <li class="mentors-list-iteams">
+            <img
+              class="mentors-img"
+              src="images/mentors/img3.png"
+              alt="Mentor Mia Dubrovska"
+            />
+            <h3 class="mentors-name">Mia Dubrovska</h3>
+            <p class="mentors-text">2.0 years of experience</p>
           </li>
-          <li class="mentor">
-            <img src="images/mentors/img4.png" alt="Mentor Eliot Kovalev" />
-            <h3>Eliot Kovalev</h3>
-            <p>4.0 years of experience</p>
+          <li class="mentors-list-iteams">
+            <img
+              class="mentors-img"
+              src="images/mentors/img4.png"
+              alt="Mentor Eliot Kovalev"
+            />
+            <h3 class="mentors-name">Eliot Kovalev</h3>
+            <p class="mentors-text">4.0 years of experience</p>
           </li>
         </ul>
       </section>
       <!-- Sign UP -->
-      <section class="sign-up">
-        <h2>Sign Up</h2>
-        <p>
+      <section class="sign-up section">
+        <h2 class="sign-up-title">Sign Up</h2>
+        <p class="sign-up-text">
           Please use the form below to contact us. Enter your name, email, and
           message and we'll get back to you shortly.
         </p>
-        <form action="">
-          <input type="text" />
-          <input type="email" />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <button>Send</button>
+        <form class="sign-up-form" action="">
+          <input class="sign-up-input" type="text" />
+          <input class="sign-up-input" type="email" />
+          <textarea
+            class="sign-up-texarea"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button class="sign-up-btn btn" type="button">Send</button>
+          <p class="sign-up-text">
+            By clicking on “Send” button, you agree to our
+            <a href="">Privacy Policy</a>, and allow Promodo to use this
+            information for marketing purposes.
+          </p>
         </form>
-        <p>
-          By clicking on “Send” button, you agree to our Privacy Policy, and
-          allow Promodo to use this information for marketing purposes.
-        </p>
-        <img src="images/signup/block.png" alt="camera with lens" />
+        <img
+          class="sign-up-img"
+          src="images/signup/block.png"
+          alt="camera with lens"
+        />
       </section>
       <!-- Revews -->
-      <section class="reviews">
-        <h2>Reviews</h2>
+      <section class="reviews section">
+        <h2 class="reviews-title">Reviews</h2>
         <ul class="reviews-list">
-          <li>
-            <img src="images/reviews/img1.png" alt="student Abraham Baker" />
-            <h3>Abraham Baker</h3>
-            <p>Student</p>
-            <p>
+          <li class="reviews-list-iteams">
+            <div class="reviews-author">
+              <img
+                class="reviews-img"
+                src="images/reviews/img1.png"
+                alt="student Abraham Baker"
+              />
+              <h3 class="reviews-name">Abraham Baker</h3>
+              <p class="reviews-rank">Student</p>
+            </div>
+            <div class="reviews-rating">
+              <img src="images/reviews/star1.svg" alt="star" />
+              <img src="images/reviews/star1.svg" alt="star" />
+              <img src="images/reviews/star1.svg" alt="star" />
+              <img src="images/reviews/star1.svg" alt="star" />
+              <img src="images/reviews/star2.svg" alt="dark star" />
+            </div>
+            <p class="reviews-text">
               I am very pleased that I decided to enroll in photography school.
               The teachers turned out to be very talented and experienced
               professionals who share their knowledge and are dedicated to their
               work. I was able to expand my skills and discover my own style.
             </p>
+          </li>
+
+          <li class="reviews-list-iteams">
+            <img
+              class="reviews-img"
+              src="images/reviews/img2.png"
+              alt="student Amanda Lowery"
+            />
+            <h3 class="reviews-name">Amanda Lowery</h3>
+            <p class="reviews-rank">Student</p>
             <div class="rating">
               <img src="images/reviews/star1.svg" alt="star" />
               <img src="images/reviews/star1.svg" alt="star" />
@@ -181,66 +261,88 @@
               <img src="images/reviews/star1.svg" alt="star" />
               <img src="images/reviews/star2.svg" alt="dark star" />
             </div>
-          </li>
-
-          <li>
-            <img src="images/reviews/img2.png" alt="student Amanda Lowery" />
-            <h3>Amanda Lowery</h3>
-            <p>Student</p>
-            <p>
+            <p class="reviews-text">
               The courses at the photography school exceeded all my
               expectations. I gained not only technical knowledge, but also
               inspiration and motivation to reach new heights in my creativity.
               Hands-on classes and workshops helped me understand different
               styles of photography.
             </p>
-            <div class="rating">
-              <img src="images/reviews/star1.svg" alt="star" />
-              <img src="images/reviews/star1.svg" alt="star" />
-              <img src="images/reviews/star1.svg" alt="star" />
-              <img src="images/reviews/star1.svg" alt="star" />
-              <img src="images/reviews/star2.svg" alt="dark star" />
-            </div>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <img src="images/icons/logo.svg" alt="logo"  class="logo-footer"/>
-      <a class="contact-number-school" href="tel:Ua: +38 066 543 8912">Ua: +38 066 543 8912 </a>
-      <p class="adress-school">Ukraine, Kyiv</p>
-      <ul class="privacy-policy">
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Public Offering Agreement</a></li>
+      <img class="footer-logo" src="images/icons/logo.svg" alt="logo" />
+      <address class="footer-adress">
+        <a class="footer-tel" href="tel:Ua: +38 066 543 8912">
+          Ua: +38 066 543 8912
+        </a>
+        <a class="footer-adress" href="">Ukraine, Kyiv</a>
+      </address>
+      <ul class="footer-list">
+        <li class="footer-list-iteams">
+          <a
+            class="footer-instagram"
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+        </li>
+        <li class="footer-list-iteams">
+          <a
+            class="footer-facebook"
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            href=""
+            >Facebook</a
+          >
+        </li>
+        <li class="footer-list-iteams">
+          <a
+            class="footer-youtube"
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            href=""
+            >Youtube</a
+          >
+        </li>
       </ul>
-      <ul class="social-links">
-        <li><a href="">Instagram</a></li>
-        <li><a href="">Facebook</a></li>
-        <li><a href="">Youtube</a></li>
-      </ul>
-      <ul class="list-about-us-footer">
-        <li>
+      <ul class="footer-menu">
+        <li class="menu-iteam">
           <a href="">About us</a>
         </li>
-        <li>
+        <li class="menu-iteam">
           <a href="">Our courses</a>
         </li>
-        <li>
+        <li class="menu-iteam">
           <a href="">Our mentors</a>
         </li>
-        <li>
+        <li class="menu-iteam">
           <a href="">Reviews</a>
         </li>
-        <li>
+        <li class="menu-iteam">
           <a href="">contacts</a>
         </li>
       </ul>
-      <form action="" class="form-info">
-        <input type="email" />
-        <button>Go</button>
+
+      <form class="footer-form" action="">
+        <input class="footer-input" type="email" />
+        <button class="footer-btn" type="submit">Go</button>
       </form>
-      <p class="copyright">2023 Focus Frame © All rights reserved</p>
+
+      <ul class="footer-policy">
+        <li class="footer-policy-iteams"><a href="">Privacy Policy</a></li>
+        <li class="footer-policy-iteams">
+          <a href="">Public Offering Agreement</a>
+        </li>
+      </ul>
+      <p class="footer-copyright">2023 Focus Frame © All rights reserved</p>
     </footer>
   </body>
 </html>
