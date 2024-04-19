@@ -6,7 +6,8 @@
     <title>Focus.Frame</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="page">
+  <!-- Header -->
+  <body>
     <header class="header">
       <nav class="nav">
         <a class="logo" href="">
@@ -118,7 +119,10 @@
         <ul class="courses-list">
           <li class="courses-list-iteam">
             <span class="courses-number">01</span>
-            <a href=""><img src="images/icons/arrow-up.svg" alt="arrow" /></a>
+            <!-- add desc to aria label -->
+            <a  class="courses-link" aria-label="link to ">
+              <img class="courses-link-icon" src="images/icons/arrow-up.svg" alt="arrow" />
+            </a>
             <h3 class="courses-type">Basics of photography</h3>
             <p class="courses-dscrpt">
               During this course, you will be able to familiarize yourself with
@@ -127,7 +131,9 @@
           </li>
           <li class="courses-list-iteam">
             <span class="courses-number">02</span>
-            <a href=""><img src="images/icons/arrow-up.svg" alt="arrow" /></a>
+            <a  class="courses-link" aria-label="link to ">
+              <img class="courses-link-icon" src="images/icons/arrow-up.svg" alt="arrow" />
+            </a>
             <h3 class="courses-type">Landscape photography</h3>
             <p class="courses-dscrpt">
               In this course, you'll learn how to choose the right angles, frame
@@ -136,7 +142,9 @@
           </li>
           <li class="courses-list-iteam">
             <span class="courses-number">03</span>
-            <a href=""><img src="images/icons/arrow-up.svg" alt="arrow" /></a>
+             <a  class="courses-link" aria-label="link to ">
+              <img class="courses-link-icon" src="images/icons/arrow-up.svg" alt="arrow" />
+            </a>
             <h3 class="courses-type">Portrait photography</h3>
             <p class="courses-dscrpt">
               During this course, you will learn to choose the right lighting,
@@ -148,8 +156,8 @@
       <!-- Our Mentors -->
       <section class="mentors section">
         <h2 class="mentors-title">Our Mentors</h2>
-        <ul class="mentors-list">
-          <li class="mentors-list-iteams">
+        <ul class="mentors-items">
+          <li class="mentors-item">
             <img
               class="mentors-img"
               src="images/mentors/img1.png"
@@ -158,7 +166,7 @@
             <h3 class="mentors-name">Emilia Smith</h3>
             <p class="mentors-text">1.5 years of experience</p>
           </li>
-          <li class="mentors-list-iteams">
+          <li class="mentors-item">
             <img
               class="mentors-img"
               src="images/mentors/img2.png"
@@ -167,7 +175,7 @@
             <h3 class="mentors-name">Alex Lebedev</h3>
             <p class="mentors-text">3.5 years of experience</p>
           </li>
-          <li class="mentors-list-iteams">
+          <li class="mentors-item">
             <img
               class="mentors-img"
               src="images/mentors/img3.png"
@@ -176,7 +184,7 @@
             <h3 class="mentors-name">Mia Dubrovska</h3>
             <p class="mentors-text">2.0 years of experience</p>
           </li>
-          <li class="mentors-list-iteams">
+          <li class="mentors-item">
             <img
               class="mentors-img"
               src="images/mentors/img4.png"
@@ -194,7 +202,7 @@
           Please use the form below to contact us. Enter your name, email, and
           message and we'll get back to you shortly.
         </p>
-        <form class="sign-up-form" action="">
+        <form class="sign-up-form">
           <input class="sign-up-input" type="text" />
           <input class="sign-up-input" type="email" />
           <textarea
@@ -207,7 +215,7 @@
           <button class="sign-up-btn btn" type="button">Send</button>
           <p class="sign-up-text">
             By clicking on “Send” button, you agree to our
-            <a href="">Privacy Policy</a>, and allow Promodo to use this
+            <a class="sign-up-link" href="">Privacy Policy</a>, and allow Promodo to use this
             information for marketing purposes.
           </p>
         </form>
@@ -217,14 +225,14 @@
           alt="camera with lens"
         />
       </section>
-      <!-- Revews -->
+      <!-- Reviews -->
       <section class="reviews section">
         <h2 class="reviews-title">Reviews</h2>
         <ul class="reviews-list">
-          <li class="reviews-list-iteams">
+          <li class="reviews-item">
             <div class="reviews-author">
               <img
-                class="reviews-img"
+                class="reviews-avatar"
                 src="images/reviews/img1.png"
                 alt="student Abraham Baker"
               />
@@ -246,9 +254,9 @@
             </p>
           </li>
 
-          <li class="reviews-list-iteams">
+          <li class="reviews-item">
             <img
-              class="reviews-img"
+              class="reviews-avatar"
               src="images/reviews/img2.png"
               alt="student Amanda Lowery"
             />
@@ -275,16 +283,16 @@
     <!-- Footer -->
     <footer class="footer">
       <img class="footer-logo" src="images/icons/logo.svg" alt="logo" />
-      <address class="footer-adress">
-        <a class="footer-tel" href="tel:Ua: +38 066 543 8912">
+      <address class="footer-contacts">
+        <a class="footer-contacts-tel" href="tel:Ua: +38 066 543 8912">
           Ua: +38 066 543 8912
         </a>
-        <a class="footer-adress" href="">Ukraine, Kyiv</a>
+        <a class="footer-contacts-address" href="">Ukraine, Kyiv</a>
       </address>
       <ul class="footer-list">
-        <li class="footer-list-iteams">
+        <li class="footer-item">
           <a
-            class="footer-instagram"
+            class="footer-link"
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -292,9 +300,9 @@
             Instagram
           </a>
         </li>
-        <li class="footer-list-iteams">
+        <li class="footer-item">
           <a
-            class="footer-facebook"
+            class="footer-link"
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -302,9 +310,9 @@
             >Facebook</a
           >
         </li>
-        <li class="footer-list-iteams">
+        <li class="footer-item">
           <a
-            class="footer-youtube"
+            class="footer-link"
             href="https://youtube.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -331,14 +339,16 @@
         </li>
       </ul>
 
-      <form class="footer-form" action="">
+      <form class="footer-form">
         <input class="footer-input" type="email" />
         <button class="footer-btn" type="submit">Go</button>
       </form>
 
       <ul class="footer-policy">
-        <li class="footer-policy-iteams"><a href="">Privacy Policy</a></li>
-        <li class="footer-policy-iteams">
+        <li class="footer-policy-item">
+          <a href="">Privacy Policy</a>
+        </li>
+        <li class="footer-policy-item">
           <a href="">Public Offering Agreement</a>
         </li>
       </ul>

@@ -1,13 +1,19 @@
 /* Variables */
-/* Base */
+
+/* Bases */
 body {
   font-family: sans-serif;
   color: #ffffff;
-  background-color: var(--black, #121212);
+  background: var(--black, #121212);
 }
 span {
-  color: tomato;
-  text-decoration: underline;
+color: rgba(255, 255, 255, 0.40);
+font-family: "DM Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
 }
 /* Reset */
 ul,
@@ -20,10 +26,19 @@ a {
 /* Header */
 .header {
 }
-.header-link {
-  color: red;
-}
-.header-link.current {
-  color: white;
-}
-/* About Us */
+
+/* Hero */
+
+/* Promo */
+
+/* About */
+
+/* Our Courses */
+
+/* Our Mentors */
+
+/* Sign Up */
+
+/* Reviews */
+
+/* Footer */
