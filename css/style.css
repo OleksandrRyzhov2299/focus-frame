@@ -1,10 +1,9 @@
 /* Variables */
+.section{
 
-/* Bases */
-body {
-  font-family: sans-serif;
-  color: #ffffff;
-  background: var(--black, #121212);
+}
+.btn{
+color:#121212;
 }
 span {
 color: rgba(255, 255, 255, 0.40);
@@ -15,6 +14,17 @@ font-weight: 400;
 line-height: 18px; /* 128.571% */
 letter-spacing: -0.28px;
 }
+/* Bases */
+body {
+  font-family: sans-serif;
+  color: #ffffff;
+  background: var(--black, #121212);
+}
+
+.main{
+
+}
+
 /* Reset */
 ul,
 ol {
@@ -25,20 +35,261 @@ a {
 }
 /* Header */
 .header {
+    margin: 20px 100px 0 100px;
+
+}
+.nav{
+
+}
+.logo{
+
+}
+.logo-icon{
+
+}
+.nav-menu{
+display: flex;
+}
+.nav-menu-iteam{
+
+}
+.header-btn{
+
+}
+/* Hero */
+.hero section{
+
+}
+.hero-title{
+
+}
+.hero-users{
+
+}
+.hero-list{
+
+}
+.hero-list-item{
+
+}
+.hero-list-img{
+
+}
+.hero-list-item{
+
+}
+.hero-users-text{
+
+}
+.hero-users-icon{
+
+}
+.hero-reviews{
+
+}
+.star{
+
+}
+.reviews{
+
+}
+.quantity-reviews{
+
+}
+.hero-banner{
+
+}
+/* Promo */
+.promo{
+
+}
+.promo-text{
+
+}
+/* About */
+.about{
+
+}
+.about-title{
+
+}
+.about-block{
+
+}
+.about-img{
+
+}
+.about-text{
+    
+}
+/* Our Courses */
+.courses{
+
+}
+.courses-title{
+
+}
+.courses-text{
+
+}
+.courses-list{
+
+}
+.courses-list-iteam{
+
+}
+.courses-number{
+
+}
+.courses-link{
+
+}
+.courses-link-icon{
+
+}
+.courses-type{
+
+}
+.courses-desc{
+
 }
 
-/* Hero */
-
-/* Promo */
-
-/* About */
-
-/* Our Courses */
-
 /* Our Mentors */
+.mentors{
 
+}
+.mentors-title{
+
+}
+.mentors-list{
+
+}
+.mentors-item{
+
+}
+.mentors-avatar{
+
+}
+.mentors-name{
+
+}
+.mentors-name{
+
+}
+.mentors-text{
+
+}
+.mentors-item{
+
+}
 /* Sign Up */
+.sign-up {
 
+}
+.sign-up-title{
+
+}
+.sign-up-text{
+
+}
+.sign-up-form{
+
+}
+.sign-up-input{
+
+}
+.sign-up-texarea{
+
+}
+.sign-up-btn{
+
+}
+.sign-up-link{
+
+}
+.sign-up-img{
+
+}
 /* Reviews */
+.reviews{
 
+}
+.reviews-title{
+
+}
+.reviews-list{
+
+}
+.reviews-item{
+
+}
+.reviews-author{
+
+}
+.reviews-avatar{
+
+}
+.reviews-name{
+
+}
+.reviews-rank{
+
+}
+.reviews-rating-stars{
+
+}
+.reviews-text{
+
+}
 /* Footer */
+.footer{
+
+}
+.footer-logo{
+
+}
+.footer-contacts{
+
+}
+.footer-contacts-tel{
+
+}
+.footer-contacts-address{
+
+}
+.footer-list{
+
+}
+.footer-item{
+
+}
+.footer-link{
+
+}
+.footer-menu{
+
+}
+.menu-iteam{
+
+}
+.menu-item-chapter{
+
+}
+.footer-form{
+
+}
+.footer-input{
+
+}
+.footer-btn{
+
+}
+.footer-policy{
+
+}
+.footer-policy-item{
+
+}
+.footer-copyright{
+
+}
