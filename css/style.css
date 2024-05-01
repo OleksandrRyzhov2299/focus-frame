@@ -1,18 +1,17 @@
 /* Variables */
-.section{
-
+.section {
 }
-.btn{
-color:#121212;
+.btn {
+  color: #121212;
 }
 span {
-color: rgba(255, 255, 255, 0.40);
-font-family: "DM Sans";
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px; /* 128.571% */
-letter-spacing: -0.28px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
 }
 /* Bases */
 body {
@@ -21,8 +20,14 @@ body {
   background: var(--black, #121212);
 }
 
-.main{
-
+/* Main */
+.main {
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /* Reset */
@@ -35,278 +40,235 @@ a {
 }
 /* Header */
 .header {
-    margin: 20px 100px 0 100px;
-
+  
 }
-.nav{
-
+.nav {
 }
-.logo{
-float: left;
+.logo {
+  float: left;
 }
-.logo-icon{
-
+.logo-icon {
 }
-.nav-menu{
-display: flex;
-gap: 40px;
+.nav-menu {
+  display: flex;
+  gap: 40px;
 }
-.nav-menu-iteam{
-
+.nav-menu-iteam {
 }
-.header-btn{
-float: right;
+.header-btn {
+  float: right;
 }
 /* Hero */
-.hero section{
-margin: auto;
+.hero section {
 }
-.hero-title{
-padding: 80px 130px 20px 50px;
-color: #FFF;
-font-family: "DM Sans";
-font-size: 64px;
-font-style: normal;
-font-weight: 500;
-line-height: 68px; /* 106.25% */
-letter-spacing: -2.56px;
+.hero-title {
+  padding: 80px 130px 20px 50px;
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 68px; /* 106.25% */
+  letter-spacing: -2.56px;
 }
-.hero-title-span{
-color: #BEA69E;
-font-family: "DM Sans";
-font-size: 64px;
-font-style: italic;
-font-weight: 400;
-line-height: 68px;
-letter-spacing: -2.56px; 
+.hero-title-span {
+  color: #bea69e;
+  font-family: 'DM Sans';
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: -2.56px;
 }
-.hero-users{
-
+.hero-users {
 }
-.hero-list{
-display: flex;
+.hero-list {
+  display: flex;
 }
-.hero-list-item{
-
+.hero-list-item {
 }
-.hero-list-img{
-
+.hero-list-img {
 }
-.hero-list-item{
-
+.hero-list-item {
 }
-.hero-users-text{
-
+.hero-users-text {
 }
-.hero-users-icon{
-
+.hero-users-icon {
 }
-.hero-reviews{
-
+.hero-reviews {
 }
-.star{
-
+.star {
 }
-.reviews{
-
+.reviews {
 }
-.quantity-reviews{
-
+.quantity-reviews {
 }
-.hero-banner{
-float: right;
+.hero-banner {
 }
 /* Promo */
-.promo{
-
+.promo {
 }
-.promo-text{
-
+.promo-text {
 }
 /* About */
-.about{
-
+.about {
+  margin: 150px 100px 0 100px;
 }
-.about-title{
-
+.about-title {
+  margin: 0;
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px; /* 112.5% */
+  letter-spacing: -1.92px;
 }
-.about-block{
-
+.about-title-us {
+  padding: 0;
+  margin: 0;
+  color: #bea69e;
+  font-family: 'DM Sans';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: -1.92px;
 }
-.about-img{
-
+.about-block {
+  display: flex;
+  gap: 50px;
 }
-.about-text{
-    
+.about-img {
+  padding: 0;
+}
+.about-wrapper {
+  display: flex;
+  gap: 40px;
+}
+.about-text {
+  margin: 0;
+  color: var(--white, #fff);
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
 }
 /* Our Courses */
-.courses{
-
+.courses {
 }
-.courses-title{
-
+.courses-title {
 }
-.courses-text{
-
+.courses-text {
 }
-.courses-list{
-
+.courses-list {
 }
-.courses-list-iteam{
-
+.courses-list-iteam {
 }
-.courses-number{
-
+.courses-number {
 }
-.courses-link{
-
+.courses-link {
 }
-.courses-link-icon{
-
+.courses-link-icon {
 }
-.courses-type{
-
+.courses-type {
 }
-.courses-desc{
-
+.courses-desc {
 }
 
 /* Our Mentors */
-.mentors{
-
+.mentors {
 }
-.mentors-title{
-
+.mentors-title {
 }
-.mentors-list{
-
+.mentors-list {
 }
-.mentors-item{
-
+.mentors-item {
 }
-.mentors-avatar{
-
+.mentors-avatar {
 }
-.mentors-name{
-
+.mentors-name {
 }
-.mentors-name{
-
+.mentors-name {
 }
-.mentors-text{
-
+.mentors-text {
 }
-.mentors-item{
-
+.mentors-item {
 }
 /* Sign Up */
 .sign-up {
-
 }
-.sign-up-title{
-
+.sign-up-title {
 }
-.sign-up-text{
-
+.sign-up-text {
 }
-.sign-up-form{
-
+.sign-up-form {
 }
-.sign-up-input{
-
+.sign-up-input {
 }
-.sign-up-texarea{
-
+.sign-up-texarea {
 }
-.sign-up-btn{
-
+.sign-up-btn {
 }
-.sign-up-link{
-
+.sign-up-link {
 }
-.sign-up-img{
-
+.sign-up-img {
 }
 /* Reviews */
-.reviews{
-
+.reviews {
 }
-.reviews-title{
-
+.reviews-title {
 }
-.reviews-list{
-
+.reviews-list {
 }
-.reviews-item{
-
+.reviews-item {
 }
-.reviews-author{
-
+.reviews-author {
 }
-.reviews-avatar{
-
+.reviews-avatar {
 }
-.reviews-name{
-
+.reviews-name {
 }
-.reviews-rank{
-
+.reviews-rank {
 }
-.reviews-rating-stars{
-
+.reviews-rating-stars {
 }
-.reviews-text{
-
+.reviews-text {
 }
 /* Footer */
-.footer{
-
+.footer {
 }
-.footer-logo{
-
+.footer-logo {
 }
-.footer-contacts{
-
+.footer-contacts {
 }
-.footer-contacts-tel{
-
+.footer-contacts-tel {
 }
-.footer-contacts-address{
-
+.footer-contacts-address {
 }
-.footer-list{
-
+.footer-list {
 }
-.footer-item{
-
+.footer-item {
 }
-.footer-link{
-
+.footer-link {
 }
-.footer-menu{
-
+.footer-menu {
 }
-.menu-iteam{
-
+.menu-iteam {
 }
-.menu-item-chapter{
-
+.menu-item-chapter {
 }
-.footer-form{
-
+.footer-form {
 }
-.footer-input{
-
+.footer-input {
 }
-.footer-btn{
-
+.footer-btn {
 }
-.footer-policy{
-
+.footer-policy {
 }
-.footer-policy-item{
-
+.footer-policy-item {
 }
-.footer-copyright{
-
+.footer-copyright {
 }
