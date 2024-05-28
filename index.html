@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -106,7 +107,7 @@
       <!-- Promo -->
       <section class="promo section">
         <div class="container">
-          <h2 class="promo-text">Master your photography skills with us!</h2>
+          <h2 class="promo-text">Master <span class="promo-text-span">your photography</span> skills with us!</h2>
         </div>
       </section>
       <!-- About -->
@@ -143,12 +144,18 @@
       <!-- Our Courses -->
       <section class="courses section">
         <div class="container">
-          <h2 class="courses-title">Our Courses</h2>
+          <ul class="courses-title-list">
+            <li>
+              <h2 class="courses-title">Our <span class="courses-title-span">Courses</span></h2>      
+          </li>
+          <li>
           <p class="courses-text">
             At our photography school, we offer a variety of courses that cover
             all aspects of this fascinating art. Regardless of your experience
             or skill level, we have courses to suit your needs and goals.
           </p>
+          </li>
+          </ul>
           <ul class="courses-list">
             <li class="courses-list-iteam">
               <span class="courses-number">01</span>
@@ -278,128 +285,129 @@
       </section>
       <!-- Reviews -->
       <section class="reviews section">
-        <h2 class="reviews-title">Reviews</h2>
-        <ul class="reviews-list">
-          <li class="reviews-item">
-            <div class="reviews-author">
+        <div class="container">
+          <h2 class="reviews-title">Reviews</h2>
+          <ul class="reviews-list">
+            <li class="reviews-item">
+              <div class="reviews-author">
+                <img
+                  class="reviews-avatar"
+                  src="images/reviews/img1.png"
+                  alt="student Abraham Baker"
+                />
+                <h3 class="reviews-name">Abraham Baker</h3>
+                <p class="reviews-rank">Student</p>
+              </div>
+              <img
+                class="reviews-rating-stars"
+                src="images/reviews/stars.svg"
+                alt="stars"
+              />
+              <p class="reviews-text">
+                I am very pleased that I decided to enroll in photography school.
+                The teachers turned out to be very talented and experienced
+                professionals who share their knowledge and are dedicated to their
+                work. I was able to expand my skills and discover my own style.
+              </p>
+            </li>
+            <li class="reviews-item">
               <img
                 class="reviews-avatar"
-                src="images/reviews/img1.png"
-                alt="student Abraham Baker"
+                src="images/reviews/img2.png"
+                alt="student Amanda Lowery"
               />
-              <h3 class="reviews-name">Abraham Baker</h3>
+              <h3 class="reviews-name">Amanda Lowery</h3>
               <p class="reviews-rank">Student</p>
-            </div>
-            <img
-              class="reviews-rating-stars"
-              src="images/reviews/stars.svg"
-              alt="stars"
-            />
-            <p class="reviews-text">
-              I am very pleased that I decided to enroll in photography school.
-              The teachers turned out to be very talented and experienced
-              professionals who share their knowledge and are dedicated to their
-              work. I was able to expand my skills and discover my own style.
-            </p>
-          </li>
-
-          <li class="reviews-item">
-            <img
-              class="reviews-avatar"
-              src="images/reviews/img2.png"
-              alt="student Amanda Lowery"
-            />
-            <h3 class="reviews-name">Amanda Lowery</h3>
-            <p class="reviews-rank">Student</p>
-            <img
-              class="reviews-rating-stars"
-              src="images/reviews/stars.svg"
-              alt="stars"
-            />
-            <p class="reviews-text">
-              The courses at the photography school exceeded all my
-              expectations. I gained not only technical knowledge, but also
-              inspiration and motivation to reach new heights in my creativity.
-              Hands-on classes and workshops helped me understand different
-              styles of photography.
-            </p>
-          </li>
-        </ul>
+              <img
+                class="reviews-rating-stars"
+                src="images/reviews/stars.svg"
+                alt="stars"
+              />
+              <p class="reviews-text">
+                The courses at the photography school exceeded all my
+                expectations. I gained not only technical knowledge, but also
+                inspiration and motivation to reach new heights in my creativity.
+                Hands-on classes and workshops helped me understand different
+                styles of photography.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <img class="footer-logo" src="images/icons/logo.svg" alt="logo" />
-      <address class="footer-contacts">
-        <a class="footer-contacts-tel" href="tel:Ua: +38 066 543 8912">
-          Ua: +38 066 543 8912
-        </a>
-        <a class="footer-contacts-address" href="">Ukraine, Kyiv</a>
-      </address>
-      <ul class="footer-list">
-        <li class="footer-item">
-          <a
-            class="footer-link"
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instagram
+      <div class="container" id="container">
+        <img class="footer-logo" src="images/icons/logo.svg" alt="logo" />
+        <address class="footer-contacts">
+          <a class="footer-contacts-tel" href="tel:Ua: +38 066 543 8912">
+            Ua: +38 066 543 8912
           </a>
-        </li>
-        <li class="footer-item">
-          <a
-            class="footer-link"
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            href=""
-            >Facebook</a
-          >
-        </li>
-        <li class="footer-item">
-          <a
-            class="footer-link"
-            href="https://youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            href=""
-            >Youtube</a
-          >
-        </li>
-      </ul>
-      <ul class="footer-menu">
-        <li class="menu-iteam">
-          <a class="menu-item-chapter" href="">About us</a>
-        </li>
-        <li class="menu-iteam">
-          <a class="menu-item-chapter" href="">Our courses</a>
-        </li>
-        <li class="menu-iteam">
-          <a class="menu-item-chapter" href="">Our mentors</a>
-        </li>
-        <li class="menu-iteam">
-          <a class="menu-item-chapter" href="">Reviews</a>
-        </li>
-        <li class="menu-iteam">
-          <a class="menu-item-chapter" href="">contacts</a>
-        </li>
-      </ul>
-
-      <form class="footer-form">
-        <input class="footer-input" type="email" />
-        <button class="footer-btn" type="submit">Go</button>
-      </form>
-
-      <ul class="footer-policy">
-        <li class="footer-policy-item">
-          <a href="">Privacy Policy</a>
-        </li>
-        <li class="footer-policy-item">
-          <a href="">Public Offering Agreement</a>
-        </li>
-      </ul>
-      <p class="footer-copyright">2023 Focus Frame © All rights reserved</p>
+          <a class="footer-contacts-address" href="">Ukraine, Kyiv</a>
+        </address>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a
+              class="footer-link"
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
+          <li class="footer-item">
+            <a
+              class="footer-link"
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              href=""
+              >Facebook</a
+            >
+          </li>
+          <li class="footer-item">
+            <a
+              class="footer-link"
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              href=""
+              >Youtube</a
+            >
+          </li>
+        </ul>
+        <ul class="footer-menu">
+          <li class="menu-iteam">
+            <a class="menu-item-chapter" href="">About us</a>
+          </li>
+          <li class="menu-iteam">
+            <a class="menu-item-chapter" href="">Our courses</a>
+          </li>
+          <li class="menu-iteam">
+            <a class="menu-item-chapter" href="">Our mentors</a>
+          </li>
+          <li class="menu-iteam">
+            <a class="menu-item-chapter" href="">Reviews</a>
+          </li>
+          <li class="menu-iteam">
+            <a class="menu-item-chapter" href="">contacts</a>
+          </li>
+        </ul>
+        <form class="footer-form">
+          <input class="footer-input" type="email" />
+          <button class="footer-btn" type="submit">Go</button>
+        </form>
+        <ul class="footer-policy">
+          <li class="footer-policy-item">
+            <a href="">Privacy Policy</a>
+          </li>
+          <li class="footer-policy-item">
+            <a href="">Public Offering Agreement</a>
+          </li>
+        </ul>
+        <p class="footer-copyright">2023 Focus Frame © All rights reserved</p>
+      </div>
     </footer>
   </body>
 </html>
