@@ -10,7 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -49,65 +52,78 @@
       <!-- Hero -->
       <section class="hero section">
         <div class="container">
-          <h1 class="hero-title">
-            Discover the magic of
-            <span class="hero-title-span">photography</span> in our school
-          </h1>
-          <p class="hero-desc">
-            Our photography school offers an unforgettable journey, where you
-            can learn the basics of composition, master technical skills,
-            translate your unique ideas.
-          </p>
-          <div class="hero-users">
-            <ul class="hero-list">
-              <li class="hero-list-item">
-                <img
-                  class="hero-list-img"
-                  src="images/hero/img1.png"
-                  alt="girl"
-                />
-              </li>
-              <li class="hero-list-item">
-                <img
-                  class="hero-list-img"
-                  src="images/hero/img2.png"
-                  alt="boy"
-                />
-              </li>
-              <li class="hero-list-item">
-                <img
-                  class="hero-list-img"
-                  src="images/hero/img3.png"
-                  alt="girl"
-                />
-              </li>
-            </ul>
-            <p class="hero-users-text">Our happy students</p>
+          <div class="hero-left">
+            <h1 class="hero-title">
+              Discover the magic of
+              <span class="hero-title-span">photography</span> in our school
+            </h1>
+            <p class="hero-desc">
+              Our photography school offers an unforgettable journey, where you
+              can learn the basics of composition, master technical skills,
+              translate your unique ideas.
+            </p>
+            <div class="hero-wrapper">
+              <div class="hero-users">
+                <ul class="hero-list">
+                  <li class="hero-list-item" style="--index: 3">
+                    <img
+                      class="hero-list-img"
+                      src="images/hero/img1.png"
+                      alt="girl"
+                    />
+                  </li>
+                  <li class="hero-list-item" style="--index: 2">
+                    <img
+                      class="hero-list-img"
+                      src="images/hero/img2.png"
+                      alt="boy"
+                    />
+                  </li>
+                  <li class="hero-list-item" style="--index: 1">
+                    <img
+                      class="hero-list-img"
+                      src="images/hero/img3.png"
+                      alt="girl"
+                    />
+                  </li>
+                </ul>
+                <div class="hero-users-right">
+                  <p class="hero-users-text">Our happy students</p>
+                  <img
+                    class="hero-users-icon"
+                    src="images/icons/arrow.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </div>
+
+              <div class="hero-reviews">
+                <div class="star">
+                  <img src="images/icons/star.svg" alt="star" />
+                </div>
+                <p class="reviews">
+                  <span class="quantity-reviews">Reviews</span>
+                  +1500
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-right">
             <img
-              class="hero-users-icon"
-              src="images/icons/arrow.svg"
-              alt="arrow"
+              class="hero-banner"
+              src="images/hero/img4.png"
+              alt="photography"
             />
           </div>
-
-          <div class="hero-reviews">
-            <div class="star">
-              <img src="images/icons/star.svg" alt="star" />
-            </div>
-            <p class="reviews">Reviews</p>
-            <p class="quantity-reviews">+1500</p>
-          </div>
-          <img
-            class="hero-banner"
-            src="images/hero/img4.png"
-            alt="photography"
-          />
         </div>
       </section>
       <!-- Promo -->
       <section class="promo section">
         <div class="container">
-          <h2 class="promo-text">Master <span class="promo-text-span">your photography</span> skills with us!</h2>
+          <h2 class="promo-text">
+            Master <span class="promo-text-span">your photography</span> skills
+            with us!
+          </h2>
         </div>
       </section>
       <!-- About -->
@@ -146,15 +162,18 @@
         <div class="container">
           <ul class="courses-title-list">
             <li>
-              <h2 class="courses-title">Our <span class="courses-title-span">Courses</span></h2>      
-          </li>
-          <li>
-          <p class="courses-text">
-            At our photography school, we offer a variety of courses that cover
-            all aspects of this fascinating art. Regardless of your experience
-            or skill level, we have courses to suit your needs and goals.
-          </p>
-          </li>
+              <h2 class="courses-title">
+                Our <span class="courses-title-span">Courses</span>
+              </h2>
+            </li>
+            <li>
+              <p class="courses-text">
+                At our photography school, we offer a variety of courses that
+                cover all aspects of this fascinating art. Regardless of your
+                experience or skill level, we have courses to suit your needs
+                and goals.
+              </p>
+            </li>
           </ul>
           <ul class="courses-list">
             <li class="courses-list-iteam">
@@ -211,7 +230,9 @@
       <!-- Our Mentors -->
       <section class="mentors section">
         <div class="container">
-          <h2 class="mentors-title">Our Mentors</h2>
+          <h2 class="mentors-title">
+            Our <span class="mentors-title-span">Mentors</span>
+          </h2>
           <ul class="mentors-list">
             <li class="mentors-item">
               <img
@@ -280,7 +301,8 @@
           <img
             class="sign-up-img"
             src="images/signup/block.png"
-            alt="camera with lens"/>
+            alt="camera with lens"
+          />
         </div>
       </section>
       <!-- Reviews -->
@@ -304,10 +326,11 @@
                 alt="stars"
               />
               <p class="reviews-text">
-                I am very pleased that I decided to enroll in photography school.
-                The teachers turned out to be very talented and experienced
-                professionals who share their knowledge and are dedicated to their
-                work. I was able to expand my skills and discover my own style.
+                I am very pleased that I decided to enroll in photography
+                school. The teachers turned out to be very talented and
+                experienced professionals who share their knowledge and are
+                dedicated to their work. I was able to expand my skills and
+                discover my own style.
               </p>
             </li>
             <li class="reviews-item">
@@ -326,9 +349,9 @@
               <p class="reviews-text">
                 The courses at the photography school exceeded all my
                 expectations. I gained not only technical knowledge, but also
-                inspiration and motivation to reach new heights in my creativity.
-                Hands-on classes and workshops helped me understand different
-                styles of photography.
+                inspiration and motivation to reach new heights in my
+                creativity. Hands-on classes and workshops helped me understand
+                different styles of photography.
               </p>
             </li>
           </ul>
