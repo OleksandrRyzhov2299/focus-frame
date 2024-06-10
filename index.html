@@ -177,15 +177,17 @@
           </ul>
           <ul class="courses-list">
             <li class="courses-list-iteam">
-              <span class="courses-number">01</span>
-              <!-- add desc to aria label -->
-              <a class="courses-link" aria-label="link to ">
-                <img
-                  class="courses-link-icon"
-                  src="images/icons/arrow-up.svg"
-                  alt="arrow"
-                />
-              </a>
+              <div class="courses-wrapper">
+                <span class="courses-number">01</span>
+                <!-- add desc to aria label -->
+                <a class="courses-link" aria-label="link to ">
+                  <img
+                    class="courses-link-icon"
+                    src="images/icons/arrow-up.svg"
+                    alt="arrow"
+                  />
+                </a>
+              </div>
               <h3 class="courses-type">Basics of photography</h3>
               <p class="courses-desc">
                 During this course, you will be able to familiarize yourself
@@ -194,14 +196,16 @@
               </p>
             </li>
             <li class="courses-list-iteam">
-              <span class="courses-number">02</span>
-              <a class="courses-link" aria-label="link to ">
-                <img
-                  class="courses-link-icon"
-                  src="images/icons/arrow-up.svg"
-                  alt="arrow"
-                />
-              </a>
+              <div class="courses-wrapper">
+                <span class="courses-number">02</span>
+                <a class="courses-link" aria-label="link to ">
+                  <img
+                    class="courses-link-icon"
+                    src="images/icons/arrow-up.svg"
+                    alt="arrow"
+                  />
+                </a>
+              </div>
               <h3 class="courses-type">Landscape photography</h3>
               <p class="courses-desc">
                 In this course, you'll learn how to choose the right angles,
@@ -210,14 +214,16 @@
               </p>
             </li>
             <li class="courses-list-iteam">
-              <span class="courses-number">03</span>
-              <a class="courses-link" aria-label="link to ">
-                <img
-                  class="courses-link-icon"
-                  src="images/icons/arrow-up.svg"
-                  alt="arrow"
-                />
-              </a>
+              <div class="courses-wrapper">
+                <span class="courses-number">03</span>
+                <a class="courses-link" aria-label="link to ">
+                  <img
+                    class="courses-link-icon"
+                    src="images/icons/arrow-up.svg"
+                    alt="arrow"
+                  />
+                </a>
+              </div>
               <h3 class="courses-type">Portrait photography</h3>
               <p class="courses-desc">
                 During this course, you will learn to choose the right lighting,
@@ -276,33 +282,48 @@
       <!-- Sign UP -->
       <section class="sign-up section">
         <div class="container">
-          <h2 class="sign-up-title">Sign Up</h2>
-          <p class="sign-up-text">
-            Please use the form below to contact us. Enter your name, email, and
-            message and we'll get back to you shortly.
-          </p>
-          <form class="sign-up-form">
-            <input class="sign-up-input" type="text" />
-            <input class="sign-up-input" type="email" />
-            <textarea
-              class="sign-up-texarea"
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-            ></textarea>
-            <button class="sign-up-btn btn" type="button">Send</button>
+          <div class="sign-up-block-1">
+            <h2 class="sign-up-title">
+              Sign <span class="sign-up-title-span">Up</span>
+            </h2>
             <p class="sign-up-text">
-              By clicking on “Send” button, you agree to our
-              <a class="sign-up-link" href="">Privacy Policy</a>, and allow
-              Promodo to use this information for marketing purposes.
+              Please use the form below to contact us. Enter your name, email,
+              and message and we'll get back to you shortly.
             </p>
-          </form>
-          <img
-            class="sign-up-img"
-            src="images/signup/block.png"
-            alt="camera with lens"
-          />
+            <form class="sign-up-form">
+              <input
+                class="sign-up-input"
+                type="text"
+                placeholder="Enter your name"
+              />
+              <input
+                class="sign-up-input"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <textarea
+                class="sign-up-texarea"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <button class="sign-up-btn btn" type="button">Send</button>
+              <p class="sign-up-text">
+                By clicking on “Send” button, you agree to our
+                <a class="sign-up-link" href="">Privacy Policy</a>, and allow
+                Promodo to use this information for marketing purposes.
+              </p>
+            </form>
+          </div>
+          <div class="sign-up-block-2">
+            <img
+              class="sign-up-img"
+              src="images/signup/block.png"
+              alt="camera with lens"
+            />
+          </div>
         </div>
       </section>
       <!-- Reviews -->
@@ -311,20 +332,24 @@
           <h2 class="reviews-title">Reviews</h2>
           <ul class="reviews-list">
             <li class="reviews-item">
-              <div class="reviews-author">
+              <div class="reviews-author-rating">
+                <div class="reviews-author">
+                  <img
+                    class="reviews-avatar"
+                    src="images/reviews/img1.png"
+                    alt="student Abraham Baker"
+                  />
+                  <div class="reviews-student">
+                    <h3 class="reviews-name">Abraham Baker</h3>
+                    <p class="reviews-rank">Student</p>
+                  </div>
+                </div>
                 <img
-                  class="reviews-avatar"
-                  src="images/reviews/img1.png"
-                  alt="student Abraham Baker"
+                  class="reviews-rating-stars"
+                  src="images/reviews/stars.svg"
+                  alt="stars"
                 />
-                <h3 class="reviews-name">Abraham Baker</h3>
-                <p class="reviews-rank">Student</p>
               </div>
-              <img
-                class="reviews-rating-stars"
-                src="images/reviews/stars.svg"
-                alt="stars"
-              />
               <p class="reviews-text">
                 I am very pleased that I decided to enroll in photography
                 school. The teachers turned out to be very talented and
@@ -334,18 +359,24 @@
               </p>
             </li>
             <li class="reviews-item">
-              <img
-                class="reviews-avatar"
-                src="images/reviews/img2.png"
-                alt="student Amanda Lowery"
-              />
-              <h3 class="reviews-name">Amanda Lowery</h3>
-              <p class="reviews-rank">Student</p>
-              <img
-                class="reviews-rating-stars"
-                src="images/reviews/stars.svg"
-                alt="stars"
-              />
+              <div class="reviews-author-rating">
+                <div class="reviews-author">
+                  <img
+                    class="reviews-avatar"
+                    src="images/reviews/img2.png"
+                    alt="student Amanda Lowery"
+                  />
+                  <div class="reviews-student">
+                    <h3 class="reviews-name">Amanda Lowery</h3>
+                    <p class="reviews-rank">Student</p>
+                  </div>
+                </div>
+                <img
+                  class="reviews-rating-stars"
+                  src="images/reviews/stars.svg"
+                  alt="stars"
+                />
+              </div>
               <p class="reviews-text">
                 The courses at the photography school exceeded all my
                 expectations. I gained not only technical knowledge, but also
@@ -418,8 +449,8 @@
           </li>
         </ul>
         <form class="footer-form">
-          <input class="footer-input" type="email" />
-          <button class="footer-btn" type="submit">Go</button>
+          <input class="footer-input" type="email" placeholder="Enter your email" />
+          <button class="footer-btn" type="submit"><span class="footer-btn-text">Go</span></button>
         </form>
         <ul class="footer-policy">
           <li class="footer-policy-item">
