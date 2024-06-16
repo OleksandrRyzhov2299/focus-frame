@@ -101,7 +101,7 @@
                 <div class="star">
                   <img src="images/icons/star.svg" alt="star" />
                 </div>
-                <p class="reviews">
+                <p class="hero-reviews-stats">
                   <span class="quantity-reviews">Reviews</span>
                   +1500
                 </p>
@@ -282,7 +282,7 @@
       <!-- Sign UP -->
       <section class="sign-up section">
         <div class="container">
-          <div class="sign-up-block-1">
+          <div class="sign-up-left">
             <h2 class="sign-up-title">
               Sign <span class="sign-up-title-span">Up</span>
             </h2>
@@ -290,7 +290,7 @@
               Please use the form below to contact us. Enter your name, email,
               and message and we'll get back to you shortly.
             </p>
-            <form class="sign-up-form">
+            <form class="sign-up-form" autocomplete="off">
               <input
                 class="sign-up-input"
                 type="text"
@@ -310,18 +310,20 @@
                 placeholder="Message"
               ></textarea>
               <button class="sign-up-btn btn" type="button">Send</button>
-              <p class="sign-up-text">
+              <p class="sign-up-agreement">
                 By clicking on “Send” button, you agree to our
                 <a class="sign-up-link" href="">Privacy Policy</a>, and allow
                 Promodo to use this information for marketing purposes.
               </p>
             </form>
           </div>
-          <div class="sign-up-block-2">
+          <div class="sign-up-right">
             <img
               class="sign-up-img"
               src="images/signup/block.png"
               alt="camera with lens"
+              width="560"
+              height="540"
             />
           </div>
         </div>
@@ -392,75 +394,89 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container" id="container">
-        <img class="footer-logo" src="images/icons/logo.svg" alt="logo" />
-        <address class="footer-contacts">
-          <a class="footer-contacts-tel" href="tel:Ua: +38 066 543 8912">
-            Ua: +38 066 543 8912
-          </a>
-          <a class="footer-contacts-address" href="">Ukraine, Kyiv</a>
-        </address>
-        <ul class="footer-list">
-          <li class="footer-item">
-            <a
-              class="footer-link"
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram
-            </a>
-          </li>
-          <li class="footer-item">
-            <a
-              class="footer-link"
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              href=""
-              >Facebook</a
-            >
-          </li>
-          <li class="footer-item">
-            <a
-              class="footer-link"
-              href="https://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              href=""
-              >Youtube</a
-            >
-          </li>
-        </ul>
-        <ul class="footer-menu">
-          <li class="menu-iteam">
-            <a class="menu-item-chapter" href="">About us</a>
-          </li>
-          <li class="menu-iteam">
-            <a class="menu-item-chapter" href="">Our courses</a>
-          </li>
-          <li class="menu-iteam">
-            <a class="menu-item-chapter" href="">Our mentors</a>
-          </li>
-          <li class="menu-iteam">
-            <a class="menu-item-chapter" href="">Reviews</a>
-          </li>
-          <li class="menu-iteam">
-            <a class="menu-item-chapter" href="">contacts</a>
-          </li>
-        </ul>
-        <form class="footer-form">
-          <input class="footer-input" type="email" placeholder="Enter your email" />
-          <button class="footer-btn" type="submit"><span class="footer-btn-text">Go</span></button>
-        </form>
-        <ul class="footer-policy">
-          <li class="footer-policy-item">
-            <a href="">Privacy Policy</a>
-          </li>
-          <li class="footer-policy-item">
-            <a href="">Public Offering Agreement</a>
-          </li>
-        </ul>
-        <p class="footer-copyright">2023 Focus Frame © All rights reserved</p>
+        <div class="footer-top">
+          <div class="footer-left">
+            <img class="footer-logo" src="images/icons/logo.svg" alt="logo" />
+            <address class="footer-contacts">
+              <a class="footer-contacts-tel" href="tel:+380665438912">
+                UA: +38 066 543 8912
+              </a>
+              <a class="footer-contacts-location" href="">Ukraine, Kyiv</a>
+            </address>
+          </div>
+          <div class="footer-middle">
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a
+                  class="footer-link"
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li class="footer-item">
+                <a
+                  class="footer-link"
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href=""
+                  >Facebook</a
+                >
+              </li>
+              <li class="footer-item">
+                <a
+                  class="footer-link"
+                  href="https://youtube.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href=""
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+            <ul class="footer-menu">
+              <li class="menu-iteam">
+                <a class="menu-item-chapter" href="">About us</a>
+              </li>
+              <li class="menu-iteam">
+                <a class="menu-item-chapter" href="">Our courses</a>
+              </li>
+              <li class="menu-iteam">
+                <a class="menu-item-chapter" href="">Our mentors</a>
+              </li>
+              <li class="menu-iteam">
+                <a class="menu-item-chapter" href="">Reviews</a>
+              </li>
+              <li class="menu-iteam">
+                <a class="menu-item-chapter" href="">contacts</a>
+              </li>
+            </ul>
+          </div>
+          <form class="footer-form">
+            <input
+              class="footer-input"
+              type="email"
+              placeholder="Enter your email"
+            />
+            <button class="footer-btn" type="submit">
+              <span class="footer-btn-text">Go</span>
+            </button>
+          </form>
+        </div>
+        <div class="footer-bottom">
+          <ul class="footer-policy">
+            <li class="footer-policy-item">
+              <a href="">Privacy Policy</a>
+            </li>
+            <li class="footer-policy-item">
+              <a href="">Public Offering Agreement</a>
+            </li>
+          </ul>
+          <p class="footer-copyright">2023 Focus Frame © All rights reserved</p>
+        </div>
       </div>
     </footer>
   </body>
