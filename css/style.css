@@ -60,8 +60,6 @@ span {
   letter-spacing: -0.28px;
 }
 /* Main */
-.main {
-}
 .container {
   width: 1240px;
   margin: 0 auto;
@@ -88,13 +86,9 @@ span {
 .logo {
   margin-right: 209px;
 }
-.logo-icon {
-}
 .nav-menu {
   display: flex;
   gap: 40px;
-}
-.nav-menu-iteam {
 }
 .nav-menu-link {
   display: block;
@@ -182,8 +176,6 @@ span {
   object-fit: cover;
   object-position: center;
 }
-.hero-users-right {
-}
 .hero-users-text {
   width: 82px;
   color: #fff;
@@ -194,8 +186,6 @@ span {
   line-height: 20px; /* 125% */
   letter-spacing: -0.64px;
   margin-bottom: 8px;
-}
-.hero-users-icon {
 }
 .hero-reviews {
   display: flex;
@@ -208,13 +198,9 @@ span {
   width: 50px;
   height: 50px;
 }
-.reviews {
-}
 .quantity-reviews {
   display: block;
   margin-bottom: 8px;
-}
-.hero-banner {
 }
 /* Promo */
 .promo {
@@ -373,8 +359,6 @@ span {
   background-color: #1d1d1d;
   border-radius: 50%;
 }
-.courses-link-icon {
-}
 .courses-type {
   width: 265px;
   margin-bottom: 200px;
@@ -423,8 +407,6 @@ span {
   justify-content: center;
   gap: 100px;
 }
-.mentors-item {
-}
 .mentors-avatar {
   width: 180px;
   height: 180px;
@@ -451,8 +433,6 @@ span {
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.28px;
-}
-.mentors-item {
 }
 /* Sign Up */
 .sign-up {
@@ -494,8 +474,6 @@ span {
   line-height: 20px; /* 125% */
   letter-spacing: -0.32px;
 }
-.sign-up-form {
-}
 .sign-up-input {
   display: block;
   width: 100%;
@@ -536,10 +514,6 @@ span {
 .sign-up-link {
   text-decoration-line: underline;
   color: inherit;
-}
-.sign-up-right {
-}
-.sign-up-img {
 }
 /* Reviews */
 .reviews {
@@ -598,8 +572,6 @@ span {
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.28px;
 }
-.reviews-rating-stars {
-}
 .reviews-text {
   width: 570px;
   color: #fff;
@@ -620,12 +592,8 @@ span {
   display: flex;
   margin-bottom: 50px;
 }
-.footer-left {
-}
 .footer-logo {
   margin-bottom: 25px;
-}
-.footer-contacts {
 }
 .footer-contacts-tel,
 .footer-contacts-location {
@@ -645,17 +613,11 @@ span {
   gap: 100px;
   margin-left: auto;
 }
-.footer-list {
-}
 .footer-item {
   margin-bottom: 20px;
 }
 .footer-item:last-child {
   margin-bottom: 0;
-}
-.footer-link {
-}
-.footer-menu {
 }
 .menu-iteam {
   margin-bottom: 20px;
