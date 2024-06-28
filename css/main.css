@@ -1,0 +1,171 @@
+.hide {
+  display: none;
+}
+
+/* Bases */
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+  background: #121212;
+  background-image: url('../images/graphic.svg');
+  background-position: center;
+}
+/* Reset */
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* main */
+.container {
+  width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    width: 1144px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    width: 1304px;
+  }
+}
+/* Hero styles start */
+.hero {
+}
+.hero-left {
+  max-width: 295px;
+}
+@media (min-width: 768px) {
+  .hero-left {
+    max-width: 517px;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-left {
+    max-width: 563px;
+  }
+}
+.hero-title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 60px;
+    line-height: 1.06;
+  }
+}
+@media (min-width: 1240px) {
+  .hero-title {
+    font-size: 64px;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-title {
+  }
+}
+.hero-title-span {
+  color: #bea69e;
+  font-style: italic;
+}
+.hero-desc {
+  max-width: 418px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+@media (min-width: 768px) {
+  .hero-desc {
+  }
+}
+.hero-wrapper {
+  display: flex;
+  gap: 40px;
+}
+.hero-users {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+.hero-list {
+  display: flex;
+}
+.hero-users {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+.hero-list-item {
+  position: relative;
+  z-index: var(--index);
+  width: 54px;
+  height: 54px;
+  border-radius: 100px;
+  border: 3px solid #1d1d1d;
+}
+.hero-list-item:not(:first-child) {
+  margin-left: -14px;
+}
+.hero-list-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-users-text {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.25em; /* 125% */
+  letter-spacing: -0.64px;
+  margin-bottom: 0.5em;
+}
+.hero-reviews {
+  display: flex;
+  gap: 12px;
+}
+.star {
+  padding: 15px;
+  border-radius: 100px;
+  background: #bea69e;
+  width: 50px;
+  height: 50px;
+}
+.quantity-reviews {
+  display: block;
+  margin-bottom: 8px;
+}
+/* Hero styles end */
